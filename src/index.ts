@@ -1,5 +1,28 @@
-const sum = (a: number, b: number) => {
-  return a + b;
-};
-
-export default sum;
+export { sum } from './sum';
+export { uniqueArr } from './uniqueArr';
+export { getParameters } from './getParameters';
+export { randomHexColor } from './randomHexColor';
+export { isTabActive } from './isTabActive';
+export { elementIsInFocus } from './elementIsInFocus';
+export { judgeDeviceType } from './judgeDeviceType';
+export { copyText } from './copyText';
+export { getSelectedText } from './getSelectedText';
+export { isWeekday } from './isWeekday';
+export { fahrenheitToCelsius } from './fahrenheitToCelsius';
+export { celsiusToFahrenheit } from './celsiusToFahrenheit';
+export { dayDiff } from './dayDiff';
+export { rgbToHex } from './rgbToHex';
+export { average } from './average';
+export { getTypeOf } from './getTypeOf';
+export { isEmpty } from './isEmpty';
+export { isNumber } from './isNumber';
+export { isString } from './isString';
+export { isObject } from './isObject';
+export { isNull } from './isNull';
+export { isArray } from './isArray';
+export { isUndefined } from './isUndefined';
+export { isTrue } from './isTrue';
+export { toCamel } from './toCamel';
+export { isElement } from './isElement';
+export { shuffle } from './shuffle';
+export { smoothScroll } from './smoothScroll';
