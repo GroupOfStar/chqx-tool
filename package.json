@@ -1,0 +1,29 @@
+{
+  "name": "chqx-tool",
+  "version": "1.0.0",
+  "private": "false",
+  "description": "chqx的npm工具包",
+  "type": "module",
+  "main": "dist/chqxTool.umd.min.js",
+  "scripts": {
+    "dev": "npm run build -w",
+    "build": "rollup -c scripts/rollup.config.base.js",
+    "f2elint-scan": "f2elint scan",
+    "f2elint-fix": "f2elint fix"
+  },
+  "keywords": [
+    "tool"
+  ],
+  "author": "chenqunxing",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "f2elint": "^2.2.1",
+    "rollup": "^3.28.1",
+    "rollup-plugin-clear": "^2.0.7",
+    "tslib": "^2.6.2"
+  },
+  "repository": "git@gitlab.alibaba-inc.com:chenqunxing.cqx/chqx-tool.git"
+}
