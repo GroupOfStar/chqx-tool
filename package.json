@@ -41,6 +41,5 @@
   "homepage": "https://groupofstar.github.io/chqx-tool/",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  },
-  "repository": "git@github.com:GroupOfStar/chqx-tool.git"
+  }
 }
