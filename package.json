@@ -9,10 +9,11 @@
   "unpkg": "dist/index.min.js",
   "typings": "es/index.d.ts",
   "scripts": {
-    "dev": "npm run build -w",
-    "build": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
+    "dev": "npm run build -w --configPlugin @rollup/plugin-typescript",
+    "build": "rollup -c --configPlugin @rollup/plugin-typescript",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
     "f2elint-scan": "f2elint scan",
     "f2elint-fix": "f2elint fix"
   },
@@ -37,5 +38,5 @@
     "tslib": "^2.6.2",
     "vitepress": "^1.0.0-rc.4"
   },
-  "repository": "git@gitlab.alibaba-inc.com:chenqunxing.cqx/chqx-tool.git"
+  "repository": "git@github.com:GroupOfStar/chqx-tool.git"
 }

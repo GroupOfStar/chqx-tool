@@ -8,7 +8,7 @@
 ### 1.1 浏览器环境
 
 ```js
-<script src="chqx-tool.umd.min.js">
+<script src="https://unpkg.com/chqx-tool@1/dist/index.min.js">
   const { sum } = vivaceTool
 </script>
 ```

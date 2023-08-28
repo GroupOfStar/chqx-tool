@@ -1,16 +1,16 @@
 ---
 layout: home
 
-title: Chqx
+title: chqx-tool
 titleTemplate: npm工具包规范示例
 
 hero:
-  name: Chqx
+  name: chqx-tool
   text: npm工具包规范示例
   tagline: 学习预研
   image:
     src: /logo.png
-    alt: Chqx
+    alt: chqx-tool
   actions:
     - theme: brand
       text: 开始

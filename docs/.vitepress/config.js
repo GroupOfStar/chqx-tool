@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
+  base: '/chqx-tool/',
   lang: 'en-US',
   title: 'Chqx Tool',
   description: 'frontend docs',
