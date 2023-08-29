@@ -1,6 +1,6 @@
 # chqx-tool
 
-<div align="center"><img src="./docs/public/logo.svg" style="width:128px;" /></div>
+<div align="center"><img src="HTTPS://groupofstar.GitHub.io/chqx-tool/logo.svg" style="width:128px;" /></div>
 <p align="center">开源、模块化、高性能的 JavaScript 实用工具库</p>
 
 ## 一、安装

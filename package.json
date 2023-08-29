@@ -1,6 +1,6 @@
 {
   "name": "chqx-tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "npm工具包规范示例",
   "type": "module",
@@ -9,7 +9,7 @@
   "unpkg": "dist/index.min.js",
   "typings": "es/index.d.ts",
   "scripts": {
-    "dev": "npm run build -w --configPlugin @rollup/plugin-typescript",
+    "test": "vitest",
     "build": "rollup -c --configPlugin @rollup/plugin-typescript",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -36,7 +36,8 @@
     "rollup": "^3.28.1",
     "rollup-plugin-clear": "^2.0.7",
     "tslib": "^2.6.2",
-    "vitepress": "^1.0.0-rc.4"
+    "vitepress": "^1.0.0-rc.4",
+    "vitest": "^0.34.3"
   },
   "homepage": "https://groupofstar.github.io/chqx-tool/",
   "publishConfig": {

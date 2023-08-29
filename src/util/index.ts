@@ -1,3 +1,4 @@
+export * from './getParameters';
 export * from './randomHexColor';
 export * from './isTabActive';
 export * from './elementIsInFocus';
