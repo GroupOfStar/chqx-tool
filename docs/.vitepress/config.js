@@ -6,7 +6,7 @@ export default defineConfig({
   title: 'Chqx Tool',
   description: 'frontend docs',
   lastUpdated: true,
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]],
+  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/chqx-tool/logo.svg' }]],
   themeConfig: {
     siteTitle: 'Chqx Tool',
     logo: '/logo.svg',
